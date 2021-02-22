@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Style.css">
+
+</head>
+
+<body>
+    <div class="container contWrap">
+        <h1>Re-Ordering Random Numbers Game</h1>
+        <div class="row text-center shuffle">
+            <div class="col-md-2">
+                <span id="shuffle"> Shuffle</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 center-block">
+                <table>
+                    <tr>
+                        <td data-sibling="2and4" Id="td1"></td>
+                        <td data-sibling="1and3and5" Id="td2"></td>
+                        <td data-sibling="2and6" Id="td3"></td>
+                    </tr>
+                    <tr>
+                        <td data-sibling="1and5and7" Id="td4"></td>
+                        <td data-sibling="2and4and6and8" Id="td5"></td>
+                        <td data-sibling="3and5and9" Id="td6"></td>
+                    </tr>
+                    <tr>
+                        <td data-sibling="4and8" Id="td7"></td>
+                        <td data-sibling="5and7and9" Id="td8"></td>
+                        <td data-sibling="6and8" Id="td9"></td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-md-12">
+                Step Counter<span Id="stepcounter">0</span>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+</body>
+
+</html>
+
+
+<div class="container">
+    <!-- Modal -->
+    <div class="modal fade" id="WinnerModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <p>Congratulations</p>
+                </div>
+
+            </div>
+            <script src="js/jquery-3.3.1.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/main.js"></script>
